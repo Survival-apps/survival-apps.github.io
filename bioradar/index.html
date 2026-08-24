@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BioRadar — Flora &amp; Fauna Scanner</title>
+<meta name="description" content="BioRadar turns your phone into a flora & fauna scanner using real iNaturalist citizen-science data.">
+<style>
+  :root{
+    --bg:#050A0E; --card:#0A1520; --card-alt:#0C1C2E; --border:#0D2233;
+    --text:#E0F7FF; --text-dim:#5B8FA8;
+    --primary:#00FFE5; --accent:#FF2D87; --warning:#FF9F0A; --danger:#FF3B30;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;}
+  .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;}
+  a{color:var(--primary);}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px;}
+  .back{display:block;padding:14px 20px;font-size:0.82rem;color:var(--text-dim);}
+  header{border-bottom:1px solid var(--border);padding:24px 0 32px;background:linear-gradient(180deg, rgba(0,255,229,0.06), transparent 60%),var(--bg);}
+  .brand{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .brand .mark{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-weight:700;font-size:1.9rem;letter-spacing:0.04em;color:var(--primary);text-shadow:0 0 12px rgba(0,255,229,0.35);}
+  .brand .by{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);border:1px solid var(--border);padding:3px 8px;border-radius:3px;}
+  .tagline{margin-top:14px;font-size:1.15rem;color:var(--text);max-width:600px;}
+  .badge-row{display:flex;gap:6px;margin:18px 0 0;flex-wrap:wrap;}
+  .badge-row span{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.72rem;letter-spacing:0.05em;padding:5px 10px;border-radius:2px;border:1px solid var(--border);color:var(--text-dim);}
+  .cta-row{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+  .cta{display:inline-block;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.95rem;font-weight:600;letter-spacing:0.03em;color:var(--bg);background:var(--primary);padding:13px 22px;border-radius:2px;text-decoration:none;border:1px solid var(--primary);}
+  .cta:hover{background:#5cffee;}
+  .price{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;color:var(--text-dim);font-size:0.9rem;}
+  section{padding:36px 0;border-bottom:1px solid var(--border);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.85rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-dim);margin:0 0 20px;}
+  h2::before{content:"[ ";color:var(--border);} h2::after{content:" ]";color:var(--border);}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+  .feature{background:var(--card);border:1px solid var(--border);border-radius:3px;padding:16px 18px;}
+  .feature .t{font-weight:600;color:var(--text);margin-bottom:6px;}
+  .feature .d{color:var(--text-dim);font-size:0.92rem;}
+  .biomes{display:flex;flex-wrap:wrap;gap:8px;}
+  .biomes span{font-size:0.8rem;padding:5px 10px;border-radius:12px;border:1px solid var(--border);color:var(--text-dim);}
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
+  .shots figure{margin:0;} .shots img{width:100%;display:block;border-radius:4px;border:1px solid var(--border);}
+  .shots figcaption{margin-top:8px;font-size:0.82rem;color:var(--text-dim);}
+  .callout{background:var(--card-alt);border:1px solid var(--warning);border-left-width:3px;border-radius:3px;padding:14px 18px;font-size:0.9rem;color:var(--text);}
+  .callout .tag{display:block;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--warning);margin-bottom:6px;}
+  .trust{background:var(--card-alt);border:1px solid var(--border);border-radius:3px;padding:18px 20px;font-size:0.88rem;}
+  .trust .row{margin-bottom:8px;} .trust .row:last-child{margin-bottom:0;}
+  .trust code{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);word-break:break-all;}
+  footer{padding:28px 0 44px;color:var(--text-dim);font-size:0.85rem;}
+  footer a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+
+<a class="back mono" href="../">← Survival-apps</a>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <span class="mark">BIORADAR</span>
+      <span class="by">by Survival-apps</span>
+    </div>
+    <p class="tagline">BioRadar turns your phone into a flora &amp; fauna scanner: hit START SCAN and the app queries <strong>iNaturalist</strong>, the citizen-science platform with hundreds of millions of real observations, to show you what's actually been spotted within 20, 60 or 100&nbsp;km of you. Every species comes with a photo, scientific name and IUCN conservation status.</p>
+    <div class="badge-row">
+      <span>iNaturalist · real-time data</span>
+      <span>8 offline biomes</span>
+      <span>IT / EN</span>
+    </div>
+    <div class="cta-row">
+      <a class="cta" href="https://payhip.com/b/aVqMf" target="_blank" rel="noopener">BUY ON PAYHIP →</a>
+      <span class="price">€7.99 · one-time · Android</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>What it does</h2>
+    <div class="features">
+      <div class="feature"><div class="t">Real-time scanner</div><div class="d">Live data from the iNaturalist community, not a static catalog.</div></div>
+      <div class="feature"><div class="t">8 offline biomes</div><div class="d">A curated, bilingual (Italian/English) archive always available without a connection.</div></div>
+      <div class="feature"><div class="t">Full species cards</div><div class="d">Photo, scientific name, conservation status, Wikipedia summary.</div></div>
+      <div class="feature"><div class="t">Saved points</div><div class="d">Store the coordinates of places you want to find again and rescan.</div></div>
+      <div class="feature"><div class="t">Italian / English</div><div class="d">Fully bilingual interface, instant language switch.</div></div>
+      <div class="feature"><div class="t">No account</div><div class="d">Location is only used to query iNaturalist; saved points stay on the phone.</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>8 biomes, always offline</h2>
+    <div class="biomes">
+      <span>Mediterranean</span><span>Temperate Forest</span><span>Alpine</span><span>Wetlands</span>
+      <span>Tropical</span><span>Steppe/Semiarid</span><span>Boreal</span><span>Savanna</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <figure><img src="images/bioradar1.jpg" alt="BioRadar main radar screen with scan range selector" loading="lazy"><figcaption>The radar is the interface — every scan queries real observation data</figcaption></figure>
+      <figure><img src="images/bioradar2.jpg" alt="BioRadar scan results list with species filters" loading="lazy"><figcaption>Scan results, filterable by flora, fauna or taxonomic group</figcaption></figure>
+      <figure><img src="images/bioradar3.jpg" alt="BioRadar species detail card" loading="lazy"><figcaption>Species detail — photo, scientific name, conservation status</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="callout">
+      <span class="tag">Read before using</span>
+      BioRadar is an educational and exploratory tool: information comes from the iNaturalist community and may contain inaccuracies. Do not use it for decisions about edibility, foraging or medicinal use of plants, fungi or animals — always consult a qualified expert for that.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Privacy &amp; verification</h2>
+    <div class="trust">
+      <div class="row">Sold on the official Survival-apps storefront: <a href="https://payhip.com/Survivalapps" target="_blank" rel="noopener">payhip.com/Survivalapps</a> — one-time payment, no subscription, EU 14-day withdrawal right.</div>
+      <div class="row">Release APK verified clean on VirusTotal (checked 2026-08-01) — <a href="https://www.virustotal.com/gui/file/9ef39d5316abe9fb546c9fcc34ea682f349c719e12d36d7f8c2e9b9e6977095b/detection" target="_blank" rel="noopener">see the report</a>.</div>
+      <div class="row">SHA-256 of the sold release: <code>9ef39d5316abe9fb546c9fcc34ea682f349c719e12d36d7f8c2e9b9e6977095b</code></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Made by <strong>Survival-apps</strong> · <a href="https://payhip.com/b/aVqMf" target="_blank" rel="noopener">Buy on Payhip</a> · <a href="../">More apps</a></div>
+</footer>
+
+</body>
+</html>

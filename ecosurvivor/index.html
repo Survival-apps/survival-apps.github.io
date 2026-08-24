@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EcoSurvivor — Survivor's Finance Manager</title>
+<meta name="description" content="EcoSurvivor treats your personal budget like a bunker's supplies — income and expenses become reserves, category budgets become rations.">
+<style>
+  :root{
+    --bg:#0F0E0A; --card:#1C1B14; --card-alt:#211F16; --border:#2E2C20;
+    --text:#D4C9A8; --text-dim:#7A7260;
+    --primary:#C5B94A; --accent:#B85C2A; --warning:#B8933A;
+    --income:#5A8A3C; --expense:#8B3A3A;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;}
+  .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;}
+  a{color:var(--primary);}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px;}
+  .back{display:block;padding:14px 20px;font-size:0.82rem;color:var(--text-dim);}
+  header{border-bottom:1px solid var(--border);padding:24px 0 32px;background:linear-gradient(180deg, rgba(197,185,74,0.06), transparent 60%),var(--bg);}
+  .brand{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .brand .mark{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-weight:700;font-size:1.9rem;letter-spacing:0.04em;color:var(--primary);}
+  .brand .by{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);border:1px solid var(--border);padding:3px 8px;border-radius:3px;}
+  .tagline{margin-top:14px;font-size:1.15rem;color:var(--text);max-width:600px;}
+  .cta-row{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+  .cta{display:inline-block;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.95rem;font-weight:600;letter-spacing:0.03em;color:var(--bg);background:var(--primary);padding:13px 22px;border-radius:2px;text-decoration:none;border:1px solid var(--primary);}
+  .cta:hover{background:#d8cc5c;}
+  .price{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;color:var(--text-dim);font-size:0.9rem;}
+  section{padding:36px 0;border-bottom:1px solid var(--border);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.85rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-dim);margin:0 0 20px;}
+  h2::before{content:"[ ";color:var(--border);} h2::after{content:" ]";color:var(--border);}
+  p.body{max-width:680px;}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+  .feature{background:var(--card);border:1px solid var(--border);border-radius:3px;padding:16px 18px;}
+  .feature .t{font-weight:600;color:var(--text);margin-bottom:6px;}
+  .feature .d{color:var(--text-dim);font-size:0.92rem;}
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
+  .shots figure{margin:0;} .shots img{width:100%;display:block;border-radius:4px;border:1px solid var(--border);}
+  .shots figcaption{margin-top:8px;font-size:0.82rem;color:var(--text-dim);}
+  .callout{background:var(--card-alt);border:1px solid var(--border);border-left:3px solid var(--primary);border-radius:3px;padding:14px 18px;font-size:0.9rem;color:var(--text);}
+  .callout .tag{display:block;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--primary);margin-bottom:6px;}
+  .trust{background:var(--card-alt);border:1px solid var(--border);border-radius:3px;padding:18px 20px;font-size:0.88rem;}
+  .trust .row{margin-bottom:8px;} .trust .row:last-child{margin-bottom:0;}
+  .trust code{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);word-break:break-all;}
+  footer{padding:28px 0 44px;color:var(--text-dim);font-size:0.85rem;}
+  footer a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+
+<a class="back mono" href="../">← Survival-apps</a>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <span class="mark">ECOSURVIVOR</span>
+      <span class="by">by Survival-apps</span>
+    </div>
+    <p class="tagline">EcoSurvivor treats your personal budget like a bunker's supplies: income and expenses become <em>reserves</em>, category budgets become <em>rations</em>, and a <em>survival index</em> tells you in one number how long you'd last at your current pace.</p>
+    <div class="cta-row">
+      <a class="cta" href="https://payhip.com/b/Cvqf8" target="_blank" rel="noopener">BUY ON PAYHIP →</a>
+      <span class="price">€7.99 · one-time · Android</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>The ancestor: the Japanese kakebo</h2>
+    <p class="body">In <strong>1904</strong>, <strong>Hani Motoko</strong> — the first woman to work as a journalist in Japan — published a household accounting method for families: the <strong>kakebo</strong> (家計簿, <em>kakeibo</em>), literally "household account book". Not a technical invention — a discipline: a notebook, a pen, half an hour at the start of the month to set income and a savings goal, and daily logging of every expense across four categories — necessities, culture and personal growth, leisure and extras, unexpected costs. At month's end, a written reflection: what went well, what to change.</p>
+    <p class="body">The kakebo's principle is almost philosophical before it's financial: <strong>writing by hand slows you down, and slowing down forces you to look</strong>. Over a century later, the method is still taught and practiced, well beyond Japan.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="features">
+      <div class="feature"><div class="t">Reserves</div><div class="d">Total balance, updated with every entry, with a twelve-month trend chart.</div></div>
+      <div class="feature"><div class="t">Rations</div><div class="d">Monthly budgets per category (food, shelter, transport, fuel, medical…), with a bar that warns you when you go over — the most direct legacy of the kakebo's four categories.</div></div>
+      <div class="feature"><div class="t">Survival index</div><div class="d">A number from 0 to 100 calculated from your savings rate and how well you stick to your rations.</div></div>
+      <div class="feature"><div class="t">Field manual</div><div class="d">Ten chapters of financial education, to read whenever you have a minute.</div></div>
+      <div class="feature"><div class="t">Ledger</div><div class="d">Every transaction, filterable, deletable with a long press.</div></div>
+      <div class="feature"><div class="t">Offline by design</div><div class="d">No account, no cloud, no ads: your data stays on the phone.</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <figure><img src="images/ecosurvivor1.jpg" alt="EcoSurvivor Bunker dashboard with total reserves and yearly chart" loading="lazy"><figcaption>The "Bunker" dashboard — reserves, survival index, yearly trend</figcaption></figure>
+      <figure><img src="images/ecosurvivor2.jpg" alt="EcoSurvivor ration plan screen with category budgets" loading="lazy"><figcaption>Rations — a spending ceiling per category</figcaption></figure>
+      <figure><img src="images/ecosurvivor3.jpg" alt="EcoSurvivor ledger and field manual screen" loading="lazy"><figcaption>Ledger &amp; field manual</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="callout">
+      <span class="tag">Not a kakebo app in the strict sense</span>
+      EcoSurvivor doesn't force handwriting, and its calculations are automatic and immediate, not monthly. But it inherits the same core principle: making the flow of money visible, category by category, to force you to look at it — with the bunker's gamification instead of paper's slowness.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Privacy &amp; verification</h2>
+    <div class="trust">
+      <div class="row">Sold on the official Survival-apps storefront: <a href="https://payhip.com/Survivalapps" target="_blank" rel="noopener">payhip.com/Survivalapps</a> — one-time payment, no subscription, EU 14-day withdrawal right.</div>
+      <div class="row">Release APK verified clean on VirusTotal (checked 2026-08-01) — <a href="https://www.virustotal.com/gui/file/32103e7fe3569b872e595e3a1f6d65ef79612ffef7469b36a4462da195c9fe44/detection" target="_blank" rel="noopener">see the report</a>.</div>
+      <div class="row">SHA-256 of the sold release: <code>32103e7fe3569b872e595e3a1f6d65ef79612ffef7469b36a4462da195c9fe44</code></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Made by <strong>Survival-apps</strong> · <a href="https://payhip.com/b/Cvqf8" target="_blank" rel="noopener">Buy on Payhip</a> · <a href="../">More apps</a></div>
+</footer>
+
+</body>
+</html>
