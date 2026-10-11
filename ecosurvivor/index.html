@@ -47,6 +47,17 @@
   .trust code{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);word-break:break-all;}
   footer{padding:28px 0 44px;color:var(--text-dim);font-size:0.85rem;}
   footer a{color:var(--text-dim);}
+
+  /* --- currency artwork at 50% (CSS only, no JS) --- */
+  body{position:relative;}
+  body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("../sfondo-ecosurvivor.webp") 50% 80%/cover no-repeat;opacity:.5;}
+  header{background:linear-gradient(180deg,rgba(197,185,74,0.08),transparent 70%);border-bottom-color:rgba(197,185,74,.35);}
+  section{background:rgba(15,14,10,.55);}
+  .brand .by{background:rgba(15,14,10,.7);}
+  h2{color:#bdb394;text-shadow:0 1px 4px #000;} h2::before,h2::after{color:rgba(197,185,74,.6);}
+  .tagline,.price{text-shadow:0 1px 4px #000;}
+  .back{color:#bdb394;text-shadow:0 1px 4px #000;}
+  footer{background:rgba(15,14,10,.85);color:#bdb394;border-top:1px solid rgba(197,185,74,.35);} footer a{color:#bdb394;}
 </style>
 <link rel="alternate" type="text/markdown" href="https://survival-apps.github.io/ecosurvivor/index.md">
 </head>
