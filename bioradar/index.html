@@ -49,6 +49,18 @@
   .trust code{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);word-break:break-all;}
   footer{padding:28px 0 44px;color:var(--text-dim);font-size:0.85rem;}
   footer a{color:var(--text-dim);}
+
+  /* --- fauna artwork at 50% (CSS only, no JS) --- */
+  body{position:relative;}
+  body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("../sfondo-bioradar.webp") 40% 85%/cover no-repeat;opacity:.5;}
+  header{background:linear-gradient(180deg,rgba(0,255,229,0.08),transparent 70%);border-bottom-color:rgba(0,255,229,.3);}
+  section{background:linear-gradient(180deg,rgba(5,10,14,.55),rgba(5,10,14,.55));}
+  .brand .by,.badge-row span{background:rgba(5,10,14,.7);}
+  .badge-row span{color:#9fc4d6;}
+  h2{color:#9fc4d6;text-shadow:0 1px 4px #000;} h2::before,h2::after{color:rgba(0,255,229,.55);}
+  .tagline,.price{text-shadow:0 1px 4px #000;}
+  .back{color:#9fc4d6;text-shadow:0 1px 4px #000;}
+  footer{background:rgba(5,10,14,.85);color:#9fc4d6;border-top:1px solid rgba(0,255,229,.3);} footer a{color:#9fc4d6;}
 </style>
 <link rel="alternate" type="text/markdown" href="https://survival-apps.github.io/bioradar/index.md">
 </head>
