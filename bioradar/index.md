@@ -46,15 +46,15 @@ Location is only used to query iNaturalist; saved points stay on the phone.
 
 ## Screenshots
 
-![BioRadar scan results list with species filters](https://survival-apps.github.io/bioradar/images/bioradar1.jpg)
+![BioRadar scan results list with species filters](https://survival-apps.github.io/bioradar/images/bioradar1.webp)
 
 Scan results, filterable by flora, fauna or taxonomic group
 
-![BioRadar main radar screen with scan range selector](https://survival-apps.github.io/bioradar/images/bioradar2.jpg)
+![BioRadar main radar screen with scan range selector](https://survival-apps.github.io/bioradar/images/bioradar2.webp)
 
 The radar is the interface — every scan queries real observation data
 
-![BioRadar Explore screen with the offline biome archive](https://survival-apps.github.io/bioradar/images/bioradar3.jpg)
+![BioRadar Explore screen with the offline biome archive](https://survival-apps.github.io/bioradar/images/bioradar3.webp)
 
 Explore — 8 offline biomes, each with its typical flora and fauna
 

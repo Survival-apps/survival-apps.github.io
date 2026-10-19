@@ -46,15 +46,15 @@ No account, no cloud, no ads: your data stays on the phone.
 
 ## Screenshots
 
-![EcoSurvivor Bunker dashboard with total reserves and yearly chart](https://survival-apps.github.io/ecosurvivor/images/ecosurvivor1.jpg)
+![EcoSurvivor Bunker dashboard with total reserves and yearly chart](https://survival-apps.github.io/ecosurvivor/images/ecosurvivor1.webp)
 
 The "Bunker" dashboard — reserves, survival index, yearly trend
 
-![EcoSurvivor ration plan screen with category budgets](https://survival-apps.github.io/ecosurvivor/images/ecosurvivor2.jpg)
+![EcoSurvivor ration plan screen with category budgets](https://survival-apps.github.io/ecosurvivor/images/ecosurvivor2.webp)
 
 Rations — a spending ceiling per category
 
-![EcoSurvivor ledger and field manual screen](https://survival-apps.github.io/ecosurvivor/images/ecosurvivor3.jpg)
+![EcoSurvivor ledger and field manual screen](https://survival-apps.github.io/ecosurvivor/images/ecosurvivor3.webp)
 
 Ledger & field manual
 

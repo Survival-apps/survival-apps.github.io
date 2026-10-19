@@ -54,15 +54,15 @@ No ads, no data leaving the phone beyond the weather/map requests needed to work
 
 ## Screenshots
 
-![HotSummer home screen showing risk level and nearest green space](https://survival-apps.github.io/hotsummer/images/hotsummer1.jpg)
+![HotSummer home screen showing risk level and nearest green space](https://survival-apps.github.io/hotsummer/images/hotsummer1.webp)
 
 Home — risk index, safe window and nearest green space
 
-![HotSummer settings screen with location options](https://survival-apps.github.io/hotsummer/images/hotsummer2.jpg)
+![HotSummer settings screen with location options](https://survival-apps.github.io/hotsummer/images/hotsummer2.webp)
 
 Settings — GPS, search, or a point on the map
 
-![HotSummer heatstroke remedies screen](https://survival-apps.github.io/hotsummer/images/hotsummer3.jpg)
+![HotSummer heatstroke remedies screen](https://survival-apps.github.io/hotsummer/images/hotsummer3.webp)
 
 Remedies — always one tap away, even offline
 
