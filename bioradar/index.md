@@ -46,17 +46,17 @@ Location is only used to query iNaturalist; saved points stay on the phone.
 
 ## Screenshots
 
-![BioRadar main radar screen with scan range selector](https://survival-apps.github.io/bioradar/images/bioradar1.jpg)
-
-The radar is the interface — every scan queries real observation data
-
-![BioRadar scan results list with species filters](https://survival-apps.github.io/bioradar/images/bioradar2.jpg)
+![BioRadar scan results list with species filters](https://survival-apps.github.io/bioradar/images/bioradar1.jpg)
 
 Scan results, filterable by flora, fauna or taxonomic group
 
-![BioRadar species detail card](https://survival-apps.github.io/bioradar/images/bioradar3.jpg)
+![BioRadar main radar screen with scan range selector](https://survival-apps.github.io/bioradar/images/bioradar2.jpg)
 
-Species detail — photo, scientific name, conservation status
+The radar is the interface — every scan queries real observation data
+
+![BioRadar Explore screen with the offline biome archive](https://survival-apps.github.io/bioradar/images/bioradar3.jpg)
+
+Explore — 8 offline biomes, each with its typical flora and fauna
 
  Read before using BioRadar is an educational and exploratory tool: information comes from the iNaturalist community and may contain inaccuracies. Do not use it for decisions about edibility, foraging or medicinal use of plants, fungi or animals — always consult a qualified expert for that.
 
