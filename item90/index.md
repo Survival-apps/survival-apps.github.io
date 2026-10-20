@@ -8,7 +8,7 @@ url: https://survival-apps.github.io/item90/
 
  ITEM90 by Survival-apps
 
-How much water does your family need for a week? What is in the cellar, and what is about to expire at the back of the pantry? Item90 maps your home room by room and tells you how long your supplies last and what to rotate. Formerly SCORTA 90.
+How much water does your family need for a week? What is in the cellar, and what is about to expire at the back of the pantry? Item90 maps your home room by room and tells you how long your supplies last and what to rotate.
 
  [BUY ON PAYHIP →](https://payhip.com/b/fc1JK) €7.99 · one-time · Android
 
