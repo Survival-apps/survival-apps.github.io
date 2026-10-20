@@ -1,6 +1,6 @@
 ---
 title: "Survival-apps"
-description: "Survival-apps — small, offline-first Android apps: heat risk, biodiversity scanning, personal finance."
+description: "Survival-apps — small, offline-first Android apps: heat risk, biodiversity scanning, personal finance, home supplies."
 url: https://survival-apps.github.io/
 ---
 
@@ -36,6 +36,14 @@ Personal finance manager inspired by the Japanese kakebo, dressed up as a surviv
 
 €7.99 · Android
 
- ](https://survival-apps.github.io/ecosurvivor/)
+ ](https://survival-apps.github.io/ecosurvivor/) [
+
+Item90
+
+Home supplies room by room: a house map, nearly 600 items, needs by people and days, and an expiry radar.
+
+€7.99 · Android
+
+ ](https://survival-apps.github.io/item90/)
 
 Survival-apps · [Store](https://payhip.com/Survivalapps)

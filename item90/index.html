@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Item90 — your home supplies, room by room</title>
+<meta name="description" content="Item90 is an offline Android app to plan your home supplies: a house map, nearly 600 items, needs by people and days, and an expiry radar.">
+<style>
+  :root{
+    --bg:#0A0C12; --card:#14151F; --card-alt:#181A26; --border:#2A2C3E;
+    --text:#D4C9A8; --text-dim:#7A7260;
+    --primary:#E08A1A; --accent:#FF2BD6; --warning:#E08A1A;
+    --basso:#5A8A3C; --moderato:#B8933A; --alto:#B85C2A; --estremo:#8B3A3A;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;}
+  .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;}
+  a{color:var(--primary);}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px;}
+  .back{display:block;padding:14px 20px;font-size:0.82rem;color:var(--text-dim);}
+  header{border-bottom:1px solid var(--border);padding:24px 0 32px;background:linear-gradient(180deg, rgba(224,138,26,0.07), transparent 60%),var(--bg);}
+  .brand{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .brand .mark{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-weight:700;font-size:1.9rem;letter-spacing:0.04em;color:var(--primary);}
+  .brand .by{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);border:1px solid var(--border);padding:3px 8px;border-radius:3px;}
+  .cover{display:block;width:100%;max-width:640px;height:auto;margin:20px 0 0;border:1px solid var(--border);border-radius:4px;}
+  .tagline{margin-top:14px;font-size:1.15rem;color:var(--text);max-width:600px;}
+  .cta-row{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+  .cta{display:inline-block;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.95rem;font-weight:600;letter-spacing:0.03em;color:var(--bg);background:var(--primary);padding:13px 22px;border-radius:2px;text-decoration:none;border:1px solid var(--primary);}
+  .cta:hover{background:#f0a240;}
+  .price{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;color:var(--text-dim);font-size:0.9rem;}
+  section{padding:36px 0;border-bottom:1px solid var(--border);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.85rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-dim);margin:0 0 20px;}
+  h2::before{content:"[ ";color:var(--border);} h2::after{content:" ]";color:var(--border);}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+  .feature{background:var(--card);border:1px solid var(--border);border-radius:3px;padding:16px 18px;}
+  .feature .t{font-weight:600;color:var(--text);margin-bottom:6px;}
+  .feature .d{color:var(--text-dim);font-size:0.92rem;}
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
+  .shots figure{margin:0;} .shots img{width:100%;display:block;border-radius:4px;border:1px solid var(--border);}
+  .shots figcaption{margin-top:8px;font-size:0.82rem;color:var(--text-dim);}
+  .trust{background:var(--card-alt);border:1px solid var(--border);border-radius:3px;padding:18px 20px;font-size:0.88rem;}
+  .trust .row{margin-bottom:8px;} .trust .row:last-child{margin-bottom:0;}
+  .trust code{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.78rem;color:var(--text-dim);word-break:break-all;}
+  .disclaimer{color:var(--text-dim);font-size:0.85rem;}
+  footer{padding:28px 0 44px;color:var(--text-dim);font-size:0.85rem;}
+  footer a{color:var(--text-dim);}
+
+  /* --- pantry artwork at 50% (CSS only, no JS) --- */
+  body{position:relative;}
+  body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("../sfondo-item90.webp") 55% 35%/cover no-repeat;opacity:.3;}
+  header{background:linear-gradient(180deg,rgba(224,138,26,0.09),transparent 70%);border-bottom-color:rgba(224,138,26,.4);}
+  section{background:rgba(10,12,18,.55);}
+  .brand .by{background:rgba(10,12,18,.7);}
+  h2{color:#d4c9a8;text-shadow:0 1px 4px #000;} h2::before,h2::after{color:rgba(224,138,26,.65);}
+  .tagline,.price{text-shadow:0 1px 4px #000;} .price{color:#d4c9a8;}
+  .back{color:#d4c9a8;text-shadow:0 1px 4px #000;}
+  footer{background:rgba(10,12,18,.85);color:#d4c9a8;border-top:1px solid rgba(224,138,26,.4);} footer a{color:#d4c9a8;}
+</style>
+<link rel="alternate" type="text/markdown" href="https://survival-apps.github.io/item90/index.md">
+</head>
+<body>
+
+<a class="back mono" href="../">← Survival-apps</a>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <span class="mark">ITEM90</span>
+      <span class="by">by Survival-apps</span>
+    </div>
+    <p class="tagline">How much water does your family need for a week? What is in the cellar, and what is about to expire at the back of the pantry? Item90 maps your home room by room and tells you how long your supplies last and what to rotate. Formerly SCORTA 90.</p>
+    <img class="cover" src="images/item90-cover.webp" width="1200" height="675" alt="Item90 cover: the app icon, an amber cube with the number 90, next to the pixel-art title and the tagline Your home supply planner">
+    <div class="cta-row">
+      <a class="cta" href="https://payhip.com/b/fc1JK" target="_blank" rel="noopener">BUY ON PAYHIP →</a>
+      <span class="price">€7.99 · one-time · Android</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>What it does</h2>
+    <div class="features">
+      <div class="feature"><div class="t">Home map</div><div class="d">Pantry, Cellar, Garage, Kitchen, Bathroom and Bedroom to start with. Rooms and containers can be added, edited and deleted — if a container holds supplies, the app warns you first.</div></div>
+      <div class="feature"><div class="t">Nearly 600 items</div><div class="d">Each with its own icon, with fast search and a category filter. If something is missing, create your own item and pick one of 80 icons.</div></div>
+      <div class="feature"><div class="t">Needs calculator</div><div class="d">Set how many people you are and how many days you want to last: bars show water, food and essentials (torch, first-aid kit, radio, blankets), using an indicative 3 litres of water and 2,100 kcal per person per day. Tap a bar to see which supplies make up the total.</div></div>
+      <div class="feature"><div class="t">Expiry radar</div><div class="d">Lists supplies that are already expired or expire within 30 days, in date order, so you know what to rotate.</div></div>
+      <div class="feature"><div class="t">Minimum levels &amp; shopping list</div><div class="d">Set a minimum stock for an item: when it drops below, it joins the shopping list by itself. Add everything else by hand from the cart.</div></div>
+      <div class="feature"><div class="t">Print</div><div class="d">The full inventory by room and container, or just the shopping list, on paper.</div></div>
+      <div class="feature"><div class="t">English / Italian</div><div class="d">Two-language interface, with 8-bit sounds and effects you can turn off.</div></div>
+      <div class="feature"><div class="t">Works offline</div><div class="d">No account, no ads, your data stays on the phone. The internet is only used to verify the license.</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <figure><img src="images/item90-1.jpg" alt="Item90 expiry radar listing energy bars, drinking water, beans, first-aid kit, rice and batteries in date order" loading="lazy"><figcaption>Expiry radar — what expires, in date order</figcaption></figure>
+      <figure><img src="images/item90-2.jpg" alt="Item90 needs calculator for two people and seven days, with progress bars for water, food energy, torch, first-aid kit, radio and blankets" loading="lazy"><figcaption>Needs — people, days and a bar for everything</figcaption></figure>
+      <figure><img src="images/item90-3.jpg" alt="Item90 printed home inventory by room and container with quantities and expiry dates" loading="lazy"><figcaption>Print — the inventory on paper, room by room</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Privacy &amp; verification</h2>
+    <div class="trust">
+      <div class="row">A personal reminder, not safety, medical or civil-protection advice. You enter quantities and dates yourself and they are not verified: always check the real label of food, medicine and water. Lists and needs are indicative. Data stays on your phone, unencrypted — do not store real passwords or codes.</div>
+      <div class="row">The internet is only used to verify the license, at activation and occasionally afterwards when a connection is available: only the key and the technical request data are sent, never your supplies.</div>
+      <div class="row">Sold on the official Survival-apps storefront: <a href="https://payhip.com/Survivalapps" target="_blank" rel="noopener">payhip.com/Survivalapps</a> — one-time payment, no subscription, EU 14-day withdrawal right.</div>
+      <div class="row">VirusTotal scan in progress — the report link will be added here.</div>
+      <div class="row">SHA-256 of the sold release (v1.0.0): <code>50b5fb31864c0628424b79fc6df13db855f4d4ea30eccb9684ae76effe862099</code></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Made by <strong>Survival-apps</strong> · <a href="https://payhip.com/b/fc1JK" target="_blank" rel="noopener">Buy on Payhip</a> · <a href="../">More apps</a></div>
+</footer>
+
+</body>
+</html>
