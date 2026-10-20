@@ -66,7 +66,7 @@ A personal reminder, not safety, medical or civil-protection advice. You enter q
 
 The internet is only used to verify the license, at activation and occasionally afterwards when a connection is available: only the key and the technical request data are sent, never your supplies.
 
-Sold on the official Survival-apps storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps) — one-time payment, no subscription. See the store's refund policy before purchase.
+Sold on the official Survival-apps storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps) — one-time payment, no subscription, EU 14-day withdrawal right.
 
 VirusTotal scan in progress — the report link will be added here.
 
