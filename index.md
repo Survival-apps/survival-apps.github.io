@@ -8,7 +8,7 @@ SURVIVAL-APPS
 
 Small, offline-first Android apps. No accounts, no ads, no subscriptions — one-time purchase, license activated on-device.
 
-Full storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps)
+Full storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps) · Blog: [survival-apps.com/en](https://www.survival-apps.com/en/)
 
 ## Apps
 
@@ -46,4 +46,4 @@ Home supplies room by room: a house map, nearly 600 items, needs by people and d
 
  ](https://survival-apps.github.io/item90/)
 
-Survival-apps · [Store](https://payhip.com/Survivalapps)
+Survival-apps · [Store](https://payhip.com/Survivalapps) · [Blog](https://www.survival-apps.com/en/)
