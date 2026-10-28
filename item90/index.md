@@ -68,8 +68,8 @@ The internet is only used to verify the license, at activation and occasionally 
 
 Sold on the official Survival-apps storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps) — one-time payment, no subscription, EU 14-day withdrawal right.
 
-Release APK verified clean on VirusTotal (checked 2026-10-21) — [see the report](https://www.virustotal.com/gui/file/54334ae74722877da58e5ad3d176bcd66176c6aa26c9123b3dd13abd3493c885/detection).
+Release APK verified clean on VirusTotal (checked 2026-10-28) — [see the report](https://www.virustotal.com/gui/file/385f48173b5fa4b67eb107467107e330f3af89c7e6f1fd888e625bb3c54cfdd4/detection).
 
-SHA-256 of the sold release (v1.0.1): `54334ae74722877da58e5ad3d176bcd66176c6aa26c9123b3dd13abd3493c885`
+SHA-256 of the sold release (v1.0.3): `385f48173b5fa4b67eb107467107e330f3af89c7e6f1fd888e625bb3c54cfdd4`
 
 Made by Survival-apps · [Buy on Payhip](https://payhip.com/b/fc1JK) · [More apps](https://survival-apps.github.io/)
