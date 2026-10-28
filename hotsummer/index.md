@@ -72,8 +72,8 @@ Not a substitute for medical advice or official heat bulletins — it complement
 
 Sold on the official Survival-apps storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps) — one-time payment, no subscription, EU 14-day withdrawal right.
 
-Release APK verified clean on VirusTotal (checked 2026-08-13) — [see the report](https://www.virustotal.com/gui/file/2960c5a65181942cc761db9dfaf92a23a85e0eeebf2e21771d624995c198dfaf?nocache=1).
+Release APK verified clean on VirusTotal (checked 2026-10-28) — [see the report](https://www.virustotal.com/gui/file/af51c5e76c7ff20c1e73c21cc310eb4ff5cdfd39a82cd1374be4002b38137d5e/detection).
 
-SHA-256 of the sold release: `2960c5a65181942cc761db9dfaf92a23a85e0eeebf2e21771d624995c198dfaf`
+SHA-256 of the sold release (v1.2.1): `af51c5e76c7ff20c1e73c21cc310eb4ff5cdfd39a82cd1374be4002b38137d5e`
 
 Made by **Survival-apps** · [Buy on Payhip](https://payhip.com/b/2vjyd) · [More apps](https://survival-apps.github.io/)
