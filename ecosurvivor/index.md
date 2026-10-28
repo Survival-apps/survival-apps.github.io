@@ -64,8 +64,8 @@ Ledger & field manual
 
 Sold on the official Survival-apps storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps) — one-time payment, no subscription, EU 14-day withdrawal right.
 
-Release APK verified clean on VirusTotal (checked 2026-08-01) — [see the report](https://www.virustotal.com/gui/file/32103e7fe3569b872e595e3a1f6d65ef79612ffef7469b36a4462da195c9fe44/detection).
+Release APK verified clean on VirusTotal (checked 2026-10-28) — [see the report](https://www.virustotal.com/gui/file/b580159cd64a466ff0f4396d9044aa38e1f972839038c5fea5a44eac7d08f786/detection).
 
-SHA-256 of the sold release: `32103e7fe3569b872e595e3a1f6d65ef79612ffef7469b36a4462da195c9fe44`
+SHA-256 of the sold release (v1.0.3): `b580159cd64a466ff0f4396d9044aa38e1f972839038c5fea5a44eac7d08f786`
 
 Made by **Survival-apps** · [Buy on Payhip](https://payhip.com/b/Cvqf8) · [More apps](https://survival-apps.github.io/)
