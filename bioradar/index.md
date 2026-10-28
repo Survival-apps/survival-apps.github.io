@@ -64,8 +64,8 @@ Explore — 8 offline biomes, each with its typical flora and fauna
 
 Sold on the official Survival-apps storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps) — one-time payment, no subscription, EU 14-day withdrawal right.
 
-Release APK verified clean on VirusTotal (checked 2026-09-18) — [see the report](https://www.virustotal.com/gui/file/cb07bca1b27e5b60ed43c27ea7466bed26e56413e8164883574c128e92a89b87/detection).
+Release APK verified clean on VirusTotal (checked 2026-10-28) — [see the report](https://www.virustotal.com/gui/file/74b8f5ecb6487df06e086eff79804edd843b2754dac336c569cb509a562f6bfc/detection).
 
-SHA-256 of the sold release: `cb07bca1b27e5b60ed43c27ea7466bed26e56413e8164883574c128e92a89b87`
+SHA-256 of the sold release (v1.1.3): `74b8f5ecb6487df06e086eff79804edd843b2754dac336c569cb509a562f6bfc`
 
 Made by **Survival-apps** · [Buy on Payhip](https://payhip.com/b/aVqMf) · [More apps](https://survival-apps.github.io/)
