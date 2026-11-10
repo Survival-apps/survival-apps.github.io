@@ -18,7 +18,7 @@ HotSummer
 
 Turns temperature, humidity, UV and air quality into a concrete next-hour action against extreme heat.
 
-€7.99 · Android
+€7.99 (about $9) · Android
 
  ](https://survival-apps.github.io/hotsummer/) [
 
@@ -26,7 +26,7 @@ BioRadar
 
 Flora & fauna scanner powered by real iNaturalist citizen-science data, with 8 offline biomes.
 
-€7.99 · Android
+€7.99 (about $9) · Android
 
  ](https://survival-apps.github.io/bioradar/) [
 
@@ -34,7 +34,7 @@ EcoSurvivor
 
 Personal finance manager inspired by the Japanese kakebo, dressed up as a survival manual.
 
-€7.99 · Android
+€7.99 (about $9) · Android
 
  ](https://survival-apps.github.io/ecosurvivor/) [
 
@@ -42,7 +42,7 @@ Item90
 
 Home supplies room by room: a house map, nearly 600 items, needs by people and days, and an expiry radar.
 
-€7.99 · Android
+€7.99 (about $9) · Android
 
  ](https://survival-apps.github.io/item90/)
 

@@ -10,7 +10,9 @@ url: https://survival-apps.github.io/ecosurvivor/
 
 EcoSurvivor treats your personal budget like a bunker's supplies: income and expenses become *reserves*, category budgets become *rations*, and a *survival index* tells you in one number how long you'd last at your current pace.
 
- [BUY ON PAYHIP →](https://payhip.com/b/Cvqf8) €7.99 · one-time · Android
+ [BUY ON PAYHIP →](https://payhip.com/b/Cvqf8) €7.99 (about $9) · one-time · Android
+
+Payhip charges in euro; the dollar amount is indicative.
 
 ## The ancestor: the Japanese kakebo
 

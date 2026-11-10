@@ -12,7 +12,9 @@ BioRadar turns your phone into a flora & fauna scanner: hit START SCAN and the a
 
  iNaturalist · real-time data 8 offline biomes IT / EN
 
- [BUY ON PAYHIP →](https://payhip.com/b/aVqMf) €7.99 · one-time · Android
+ [BUY ON PAYHIP →](https://payhip.com/b/aVqMf) €7.99 (about $9) · one-time · Android
+
+Payhip charges in euro; the dollar amount is indicative.
 
 ## What it does
 

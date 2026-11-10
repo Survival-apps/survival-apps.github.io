@@ -4,10 +4,10 @@ Product showcase for Survival-apps' Android apps. This repository hosts **only**
 
 **Live site**: enable GitHub Pages on this repo (branch `main`, folder `/`), then it serves at `https://survival-apps.github.io`.
 
-- [HotSummer](hotsummer/) — turn heat into action · [Buy €7.99](https://payhip.com/b/2vjyd)
-- [BioRadar](bioradar/) — flora & fauna scanner · [Buy €7.99](https://payhip.com/b/aVqMf)
-- [EcoSurvivor](ecosurvivor/) — survivor's finance manager · [Buy €7.99](https://payhip.com/b/Cvqf8)
-- [Item90](item90/) — home supplies, room by room · [Buy €7.99](https://payhip.com/b/fc1JK)
+- [HotSummer](hotsummer/) — turn heat into action · [Buy €7.99 (about $9)](https://payhip.com/b/2vjyd)
+- [BioRadar](bioradar/) — flora & fauna scanner · [Buy €7.99 (about $9)](https://payhip.com/b/aVqMf)
+- [EcoSurvivor](ecosurvivor/) — survivor's finance manager · [Buy €7.99 (about $9)](https://payhip.com/b/Cvqf8)
+- [Item90](item90/) — home supplies, room by room · [Buy €7.99 (about $9)](https://payhip.com/b/fc1JK)
 
 Full storefront: [payhip.com/Survivalapps](https://payhip.com/Survivalapps)
 

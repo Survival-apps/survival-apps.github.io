@@ -12,7 +12,9 @@ Heat warnings already exist — bulletins, red alerts. The problem isn't the inf
 
  LOWMODERATEHIGHEXTREME
 
- [BUY ON PAYHIP →](https://payhip.com/b/2vjyd) €7.99 · one-time · Android
+ [BUY ON PAYHIP →](https://payhip.com/b/2vjyd) €7.99 (about $9) · one-time · Android
+
+Payhip charges in euro; the dollar amount is indicative.
 
 ## What it does
 
