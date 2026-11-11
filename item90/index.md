@@ -56,9 +56,9 @@ Two PDF editions: stand-alone, and one for use alongside Item90, with the same l
 
 Figures come from public sources — Ready.gov/FEMA for water, WHO and partners for the calorie starting point, the European Commission for the 72-hour minimum — each with its link, kept side by side and not merged into one number. No medicine quantities: a sheet to fill in with your doctor or pharmacist.
 
-Planner €11.99 (about $14) · Item90 + Planner bundle €14.99 (about $17) instead of €19.98 (about $23). Payhip charges in euro; dollar amounts are indicative. The Planner is in English for now; an Italian edition is coming.
+Planner €11.99 (about $14) · [Item90 + Planner bundle](https://payhip.com/b/HChqu) €14.99 (about $17) instead of €19.98 (about $23). Payhip charges in euro; dollar amounts are indicative. The Planner is in English for now; an Italian edition is coming.
 
-[GET THE PLANNER →](https://payhip.com/b/bsn45) · [Home supplies on Payhip](https://payhip.com/Survivalapps/home-supplies)
+[GET THE PLANNER →](https://payhip.com/b/bsn45) · [GET THE BUNDLE →](https://payhip.com/b/HChqu)
 
 ## Screenshots
 
