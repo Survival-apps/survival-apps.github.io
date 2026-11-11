@@ -48,6 +48,18 @@ Works offline
 
 No account, no ads, your data stays on the phone. The internet is only used to verify the license.
 
+## Companion: Home Autonomy Planner
+
+Printable PDF planner plus a macro-free spreadsheet (XLSX and ODS): water and calorie calculators for 14, 30 or 90 days, a from-zero shopping list, a buy-and-rotate calendar, and one-page sheets for water, dry food, over-the-counter medicines and hygiene.
+
+Two PDF editions: stand-alone, and one for use alongside Item90, with the same logic as the app and a printed room → container → item inventory as backup.
+
+Figures come from public sources — Ready.gov/FEMA for water, WHO and partners for the calorie starting point, the European Commission for the 72-hour minimum — each with its link, kept side by side and not merged into one number. No medicine quantities: a sheet to fill in with your doctor or pharmacist.
+
+Planner €11.99 · Item90 + Planner bundle €14.99 instead of €19.98. The Planner is in English for now; an Italian edition is coming.
+
+[GET THE PLANNER →](https://payhip.com/b/bsn45) · [Home supplies on Payhip](https://payhip.com/Survivalapps/home-supplies)
+
 ## Screenshots
 
 ![Item90 expiry radar listing energy bars, drinking water, beans, first-aid kit, rice and batteries in date order](https://survival-apps.github.io/item90/images/item90-1.jpg)
