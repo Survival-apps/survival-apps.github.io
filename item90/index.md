@@ -52,11 +52,11 @@ No account, no ads, your data stays on the phone. The internet is only used to v
 
 Printable PDF planner plus a macro-free spreadsheet (XLSX and ODS): water and calorie calculators for 14, 30 or 90 days, a from-zero shopping list, a buy-and-rotate calendar, and one-page sheets for water, dry food, over-the-counter medicines and hygiene.
 
-Two PDF editions: stand-alone, and one for use alongside Item90, with the same logic as the app and a printed room → container → item inventory as backup.
+The English edition has two PDFs: stand-alone, and one for use alongside Item90, with the same logic as the app and a printed room → container → item inventory as backup. The Italian edition is stand-alone only (A4, light theme).
 
 Figures come from public sources — Ready.gov/FEMA for water, WHO and partners for the calorie starting point, the European Commission for the 72-hour minimum — each with its link, kept side by side and not merged into one number. No medicine quantities: a sheet to fill in with your doctor or pharmacist.
 
-Planner €11.99 (about $14) · [Item90 + Planner bundle](https://payhip.com/b/HChqu) €14.99 (about $17) instead of €19.98 (about $23). Payhip charges in euro; dollar amounts are indicative. The Planner comes in English and Italian, as two separate listings; the bundle includes both.
+Planner €11.99 (about $14) · [Item90 + Planner bundle](https://payhip.com/b/HChqu) €14.99 (about $17) instead of €19.98 (about $23). Payhip charges in euro; dollar amounts are indicative. The Planner comes in English and Italian, as two separate listings; the bundle includes Item90 and all three Planner editions (two English, one Italian), so it works in both languages.
 
 [GET THE PLANNER →](https://payhip.com/b/bsn45) · [PLANNER IN ITALIANO →](https://payhip.com/b/68XQJ) · [GET THE BUNDLE →](https://payhip.com/b/HChqu)
 
