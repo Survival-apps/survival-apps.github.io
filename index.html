@@ -82,6 +82,151 @@
   .cursor{display:inline-block;width:.55em;height:1em;vertical-align:-.12em;background:var(--primary);animation:blink 1.1s steps(1) infinite;}
   @keyframes blink{50%{opacity:0;}}
   @media (prefers-reduced-motion:reduce){.cursor{animation:none;}}
+  /* --- links & useful gear banner (draft, scrolling strip) --- */
+  .links-banner{padding:22px 0 24px;}
+  .banner-panel{
+    background:rgba(7,8,10,.90);
+    border:1px solid rgba(197,185,74,.35);
+    border-radius:8px;
+    padding:16px 16px 14px;
+    box-shadow:0 16px 40px -18px #000, inset 0 0 0 1px rgba(0,255,229,.06);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+  }
+  .links-banner .banner-head{
+    display:flex;align-items:center;gap:12px;margin-bottom:10px;
+  }
+  .links-banner .banner-logo{
+    width:36px;height:36px;border-radius:6px;flex:0 0 auto;
+    border:1px solid rgba(197,185,74,.35);
+    box-shadow:0 0 16px -8px rgba(255,43,214,.55);
+    background:#07080a;
+  }
+  .links-banner .banner-kicker{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;
+    font-size:0.72rem;letter-spacing:.12em;text-transform:uppercase;color:#c5ced6;
+  }
+  .links-banner .banner-kicker b{color:var(--cyan);font-weight:600;}
+  .links-banner h2{margin:0 0 8px;}
+  .links-banner .intro{margin:0 0 12px;color:#c5ced6;max-width:none;font-size:0.92rem;text-shadow:none;}
+  .links-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;}
+  .links-chip{
+    display:inline-flex;align-items:center;gap:8px;
+    text-decoration:none;color:var(--text);
+    background:#111318;border:1px solid var(--border);border-radius:6px;
+    padding:7px 11px;
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;
+    font-size:0.75rem;letter-spacing:.02em;
+    transition:border-color .15s, box-shadow .15s;
+  }
+  .links-chip:hover{border-color:var(--primary);box-shadow:0 0 18px -8px var(--primary);color:var(--primary);}
+  .links-chip .dot{width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan);flex:0 0 auto;}
+  .strip-head{
+    display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;
+    margin:0 0 10px;
+  }
+  .links-banner h3{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;
+    font-size:0.74rem;letter-spacing:0.12em;text-transform:uppercase;color:#c5ced6;
+    margin:0;text-shadow:none;
+  }
+  .links-banner h3::before{content:"[ ";color:rgba(197,185,74,.6);}
+  .links-banner h3::after{content:" ]";color:rgba(197,185,74,.6);}
+  .disclosure{
+    margin:0;padding:0;
+    border-left:none;background:transparent;
+    color:#c5ced6;font-size:0.8rem;flex:1 1 220px;
+  }
+  .disclosure strong{color:var(--text);font-weight:600;}
+  .marquee{
+    overflow:hidden;
+    margin:0 -4px;
+    padding:2px 0 4px;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0, #000 18px, #000 calc(100% - 18px), transparent 100%);
+            mask-image:linear-gradient(90deg,transparent 0, #000 18px, #000 calc(100% - 18px), transparent 100%);
+  }
+  .marquee-track{
+    display:flex;
+    width:max-content;
+    animation:links-marquee 40s linear infinite;
+  }
+  .marquee:hover .marquee-track,
+  .marquee:focus-within .marquee-track{
+    animation-play-state:paused;
+  }
+  .marquee-set{
+    display:flex;
+    gap:10px;
+    padding-right:10px;
+    flex:0 0 auto;
+  }
+  @keyframes links-marquee{
+    from{transform:translateX(0);}
+    to{transform:translateX(-50%);}
+  }
+  .gear-card{
+    box-sizing:border-box;
+    display:flex;flex-direction:column;
+    flex:0 0 232px;width:232px;
+    text-decoration:none;color:inherit;
+    background:#111318;border:1px solid var(--border);border-radius:6px;
+    padding:12px 12px 10px;position:relative;overflow:hidden;
+    transition:border-color .15s, box-shadow .15s;
+    min-height:148px;
+  }
+  .gear-card::before{
+    content:"";position:absolute;left:0;top:0;width:100%;height:2px;
+    background:linear-gradient(90deg,transparent,var(--primary),transparent);opacity:.55;
+  }
+  .gear-card:hover,.gear-card:focus-visible{
+    border-color:var(--primary);box-shadow:0 0 22px -6px var(--primary),inset 0 0 18px -12px var(--primary);
+    outline:none;
+  }
+  .gear-card .name{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;
+    font-weight:700;font-size:0.8rem;line-height:1.3;color:var(--primary);margin-bottom:6px;
+    text-shadow:0 0 10px rgba(197,185,74,.25);
+    display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;
+  }
+  .gear-card .desc{
+    color:#b7c0c9;font-size:0.75rem;line-height:1.35;margin:0 0 8px;flex:1;
+    display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;
+  }
+  .gear-card .ad{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;
+    font-size:0.68rem;color:#9aa6b2;letter-spacing:.04em;margin-top:auto;
+  }
+  .gear-card .ad b{color:var(--cyan);font-weight:600;}
+  .more-gear{margin:10px 0 0;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Courier New",monospace;font-size:0.8rem;}
+  @media (max-width:600px){
+    .banner-panel{
+      background:rgba(7,8,10,.96);
+      backdrop-filter:none;-webkit-backdrop-filter:none;
+      padding:14px 12px 12px;
+    }
+    .links-banner .intro,.disclosure{color:#d5dde4;}
+    .gear-card .desc{color:#c5ced6;}
+  }
+  /* Swipeable row: reduced motion, or touch devices where hover cannot pause a moving target */
+  @media (prefers-reduced-motion:reduce), (hover:none) and (pointer:coarse){
+    .marquee{
+      overflow-x:auto;overflow-y:hidden;
+      -webkit-overflow-scrolling:touch;
+      overscroll-behavior-x:contain;
+      scrollbar-width:thin;
+      scrollbar-color:rgba(197,185,74,.45) transparent;
+      -webkit-mask-image:none;mask-image:none;
+      scroll-snap-type:x proximity;
+      padding-bottom:6px;
+      cursor:grab;
+    }
+    .marquee::-webkit-scrollbar{height:6px;}
+    .marquee::-webkit-scrollbar-thumb{background:rgba(197,185,74,.45);border-radius:3px;}
+    .marquee-track{animation:none;transform:none;}
+    .marquee-set--clone{display:none;}
+    .gear-card{scroll-snap-align:start;}
+  }
+
 </style>
 <link rel="alternate" type="text/markdown" href="https://survival-apps.github.io/index.md">
 </head>
@@ -119,6 +264,144 @@
         <div class="desc">Home supplies room by room: a house map, nearly 600 items, needs by people and days, and an expiry radar.</div>
         <div class="price">€7.99 (about $9) · Android</div>
       </a>
+    </div>
+  </div>
+</section>
+
+<!-- Links and Useful gear scrolling banner. The second .marquee-set is a visual duplicate for the CSS infinite loop only (inert, hidden from AT). Affiliate links use rel="sponsored noopener" target="_blank". No prices on Amazon cards. -->
+<section id="links-and-gear" class="links-banner">
+  <div class="wrap">
+    <div class="banner-panel">
+      <div class="banner-head">
+        <img class="banner-logo" src="assets/logo-ufficiale-survival-apps.png" width="36" height="36" alt="Survival-apps">
+        <div class="banner-kicker"><b>CH</b> channels · store · useful gear</div>
+      </div>
+      <h2>Links</h2>
+      <p class="intro">Official Survival-apps channels, the store, and a short list of gear we suggest if you are filling gaps. Some links below are Amazon affiliate links, clearly marked #ad.</p>
+      <nav class="links-chips" aria-label="Survival-apps official links">
+        <a class="links-chip" href="https://www.survival-apps.com/" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>Website</a>
+        <a class="links-chip" href="https://www.survival-apps.com/en/" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>Website (EN)</a>
+        <a class="links-chip" href="https://payhip.com/Survivalapps" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>Payhip store</a>
+        <a class="links-chip" href="https://payhip.com/Survivalapps/useful-gear" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>Useful gear</a>
+        <a class="links-chip" href="https://www.facebook.com/SurvivalApps/" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>Facebook</a>
+        <a class="links-chip" href="https://www.instagram.com/survivalapps/" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>Instagram</a>
+        <a class="links-chip" href="https://www.youtube.com/@survivalapps" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>YouTube</a>
+        <a class="links-chip" href="https://www.facebook.com/ExploringOffGridStates" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>EOS on Facebook</a>
+      </nav>
+
+      <div class="strip-head">
+        <h3>On Amazon</h3>
+        <p class="disclosure" role="note"><strong>As an Amazon Associate I earn from qualifying purchases.</strong> Links marked #ad / affiliate link go to Amazon.it.</p>
+      </div>
+      <div class="marquee" role="region" aria-label="Amazon affiliate products, scrolling strip">
+        <div class="marquee-track">
+      <div class="marquee-set">
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSFJ71ZZ?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">Home Autonomy Planner — Kindle (English)</div>
+          <div class="desc">The English Kindle edition: water and calorie worksheets for 14, 30 or 90 days. No app required.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSF64S32?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">Home Autonomy Planner — Kindle (Italian)</div>
+          <div class="desc">The Italian Kindle edition of the same planner. Read it on a Kindle or in the app; fill the sheets in by hand.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSF895YP?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">Home Autonomy Planner — paperback (English)</div>
+          <div class="desc">Prefer it printed? The planner is also on Amazon as a paperback, in English, with a black-and-white interior to fill in by hand.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSF46M3M?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">Home Autonomy Planner — paperback (Italian)</div>
+          <div class="desc">The Italian edition is on Amazon as a paperback too, with a black-and-white interior to fill in by hand.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0BFQB86ZL?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">EcoFlow RIVER 2 MAX portable power station, 512 Wh</div>
+          <div class="desc">A 512 Wh LiFePO4 station for a longer home blackout: phones, lights, a radio, and several small appliances at once.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B07FD2VPJ3?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">Ledlenser ML6 rechargeable LED lantern, 750 lm</div>
+          <div class="desc">Hands-free room light for a power cut: hang or stand this 750-lumen lantern, then dim it to last the night.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B006QF3TW4?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">LifeStraw Personal water filter, blue, 1 piece</div>
+          <div class="desc">Drink from a stream or suspect tap: this pocket filter removes bacteria and protozoa, no tablets or batteries required.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0BVN3B8RP?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">Acta Berg crank DAB+/FM emergency radio</div>
+          <div class="desc">DAB+ and FM news when the grid is down: hand-crank and solar charging, plus an SOS alert, delivered by Amazon.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0CF9C41TM?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">BDH Energy Biscuit, coffee flavour, 12&nbsp;×&nbsp;120&nbsp;g</div>
+          <div class="desc">Keep a no-cook calorie reserve in the cupboard: twelve individually wrapped 120 g bars, ready if the shops stay shut.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B07DHMVWNR?tag=survivalapps-21" rel="sponsored noopener" target="_blank">
+          <div class="name">AIESI Easy AID KIT first-aid bag (AHS554)</div>
+          <div class="desc">A compact Italian first-aid bag for home or car: gloves, disinfectant, dressings, a thermometer and scissors, all in one place.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+      </div>
+      <div class="marquee-set marquee-set--clone" aria-hidden="true" inert>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSFJ71ZZ?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">Home Autonomy Planner — Kindle (English)</div>
+          <div class="desc">The English Kindle edition: water and calorie worksheets for 14, 30 or 90 days. No app required.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSF64S32?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">Home Autonomy Planner — Kindle (Italian)</div>
+          <div class="desc">The Italian Kindle edition of the same planner. Read it on a Kindle or in the app; fill the sheets in by hand.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSF895YP?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">Home Autonomy Planner — paperback (English)</div>
+          <div class="desc">Prefer it printed? The planner is also on Amazon as a paperback, in English, with a black-and-white interior to fill in by hand.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0HSF46M3M?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">Home Autonomy Planner — paperback (Italian)</div>
+          <div class="desc">The Italian edition is on Amazon as a paperback too, with a black-and-white interior to fill in by hand.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0BFQB86ZL?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">EcoFlow RIVER 2 MAX portable power station, 512 Wh</div>
+          <div class="desc">A 512 Wh LiFePO4 station for a longer home blackout: phones, lights, a radio, and several small appliances at once.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B07FD2VPJ3?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">Ledlenser ML6 rechargeable LED lantern, 750 lm</div>
+          <div class="desc">Hands-free room light for a power cut: hang or stand this 750-lumen lantern, then dim it to last the night.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B006QF3TW4?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">LifeStraw Personal water filter, blue, 1 piece</div>
+          <div class="desc">Drink from a stream or suspect tap: this pocket filter removes bacteria and protozoa, no tablets or batteries required.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0BVN3B8RP?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">Acta Berg crank DAB+/FM emergency radio</div>
+          <div class="desc">DAB+ and FM news when the grid is down: hand-crank and solar charging, plus an SOS alert, delivered by Amazon.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B0CF9C41TM?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">BDH Energy Biscuit, coffee flavour, 12&nbsp;×&nbsp;120&nbsp;g</div>
+          <div class="desc">Keep a no-cook calorie reserve in the cupboard: twelve individually wrapped 120 g bars, ready if the shops stay shut.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+        <a class="gear-card" href="https://www.amazon.it/dp/B07DHMVWNR?tag=survivalapps-21" rel="sponsored noopener" target="_blank" tabindex="-1">
+          <div class="name">AIESI Easy AID KIT first-aid bag (AHS554)</div>
+          <div class="desc">A compact Italian first-aid bag for home or car: gloves, disinfectant, dressings, a thermometer and scissors, all in one place.</div>
+          <div class="ad"><b>#ad</b> / affiliate link</div>
+        </a>
+      </div>
+        </div>
+      </div>
+      <p class="more-gear">Full list, with context: <a href="https://payhip.com/Survivalapps/useful-gear" target="_blank" rel="noopener">payhip.com/Survivalapps/useful-gear</a></p>
     </div>
   </div>
 </section>
