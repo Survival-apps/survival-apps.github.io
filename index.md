@@ -58,11 +58,12 @@ Official Survival-apps channels, the store, and a short list of gear we suggest 
 
 As an Amazon Associate I earn from qualifying purchases. Links marked #ad / affiliate link go to Amazon.it.
 
-The HTML homepage shows these as a compact horizontal scrolling strip. The nine titles, in order:
+The HTML homepage shows these as a compact horizontal scrolling strip. The ten titles, in order:
 
 - [Home Autonomy Planner — Kindle (English)](https://www.amazon.it/dp/B0HSM7YPPG?tag=survivalapps-21) (#ad / affiliate link)
 - [Home Autonomy Planner — paperback (English)](https://www.amazon.it/dp/B0HSF895YP?tag=survivalapps-21) (#ad / affiliate link)
 - [Home Autonomy Planner — paperback (Italian)](https://www.amazon.it/dp/B0HSF46M3M?tag=survivalapps-21) (#ad / affiliate link)
+- [Home Autonomy Planner — Kindle (Italian)](https://www.amazon.it/dp/B0HSF64S32?tag=survivalapps-21) (#ad / affiliate link)
 - [EcoFlow RIVER 2 MAX portable power station, 512 Wh](https://www.amazon.it/dp/B0BFQB86ZL?tag=survivalapps-21) (#ad / affiliate link)
 - [Ledlenser ML6 rechargeable LED lantern, 750 lm](https://www.amazon.it/dp/B07FD2VPJ3?tag=survivalapps-21) (#ad / affiliate link)
 - [LifeStraw Personal water filter, blue, 1 piece](https://www.amazon.it/dp/B006QF3TW4?tag=survivalapps-21) (#ad / affiliate link)
