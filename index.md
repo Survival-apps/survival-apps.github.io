@@ -58,7 +58,7 @@ Official Survival-apps channels, the store, and a short list of gear we suggest 
 
 As an Amazon Associate I earn from qualifying purchases. Links marked #ad / affiliate link go to Amazon.it.
 
-The HTML homepage shows these as a compact horizontal scrolling strip. The ten titles, in order:
+The HTML homepage shows these as a compact horizontal scrolling strip. The nine titles, in order:
 
 - [Home Autonomy Planner — Kindle (English)](https://www.amazon.it/dp/B0HSM7YPPG?tag=survivalapps-21) (#ad / affiliate link)
 - [Home Autonomy Planner — paperback (English)](https://www.amazon.it/dp/B0HSF895YP?tag=survivalapps-21) (#ad / affiliate link)
@@ -67,7 +67,6 @@ The HTML homepage shows these as a compact horizontal scrolling strip. The ten t
 - [EcoFlow RIVER 2 MAX portable power station, 512 Wh](https://www.amazon.it/dp/B0BFQB86ZL?tag=survivalapps-21) (#ad / affiliate link)
 - [Ledlenser ML6 rechargeable LED lantern, 750 lm](https://www.amazon.it/dp/B07FD2VPJ3?tag=survivalapps-21) (#ad / affiliate link)
 - [LifeStraw Personal water filter, blue, 1 piece](https://www.amazon.it/dp/B006QF3TW4?tag=survivalapps-21) (#ad / affiliate link)
-- [Acta Berg crank DAB+/FM emergency radio](https://www.amazon.it/dp/B0BVN3B8RP?tag=survivalapps-21) (#ad / affiliate link)
 - [BDH Energy Biscuit, coffee flavour, 12 × 120 g](https://www.amazon.it/dp/B0CF9C41TM?tag=survivalapps-21) (#ad / affiliate link)
 - [AIESI Easy AID KIT first-aid bag (AHS554)](https://www.amazon.it/dp/B07DHMVWNR?tag=survivalapps-21) (#ad / affiliate link)
 
