@@ -52,7 +52,7 @@ Home supplies room by room: a house map, nearly 600 items, needs by people and d
 
 Official Survival-apps channels, the store, and a short list of gear we suggest if you are filling gaps. Some links below are Amazon affiliate links, clearly marked #ad.
 
-[Website](https://www.survival-apps.com/) · [Website (EN)](https://www.survival-apps.com/en/) · [Payhip store](https://payhip.com/Survivalapps) · [Useful gear](https://payhip.com/Survivalapps/useful-gear) · [Facebook](https://www.facebook.com/SurvivalApps/) · [Instagram](https://www.instagram.com/survivalapps/) · [YouTube](https://www.youtube.com/@survivalapps) · [EOS on Facebook](https://www.facebook.com/ExploringOffGridStates)
+[Website](https://www.survival-apps.com/) · [Website (EN)](https://www.survival-apps.com/en/) · [Payhip store](https://payhip.com/Survivalapps) · [Useful gear](https://payhip.com/Survivalapps/useful-gear) · [Facebook](https://www.facebook.com/SurvivalApps/) · [Instagram](https://www.instagram.com/survivalapps/) · [YouTube](https://www.youtube.com/@survivalapps) · [EOS on Facebook](https://www.facebook.com/ExploringOffGridStates) · [Outpost 2099 on Facebook](https://www.facebook.com/p/Outpost-2099-61589007367407)
 
 ### On Amazon
 
